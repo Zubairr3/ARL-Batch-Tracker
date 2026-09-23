@@ -65,7 +65,6 @@ npm test
 
 ## 🧠 Architectural Decisions & Assumptions
 
-*The prompt asks: "Where do you enforce a rule? In the handler, in the service layer, in the database, or in more than one place?"*
 
 **I chose a Hybrid Approach (Database + Handler Layer):**
 
@@ -102,4 +101,3 @@ If the API is scaled horizontally behind a load balancer, application-level chec
 AI tools (Gemini) were utilized primarily as a thought partner for debugging TypeScript configurations, scaffolding the boilerplate setup for Fastify routing, and discussing the trade-offs between application-level locking versus PostgreSQL partial indexes for handling race conditions. All core business logic, schema design, and test implementations were manually driven and verified.
 
 ```
-
